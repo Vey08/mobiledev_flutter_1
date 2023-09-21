@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
-                  'assets/background.png',
+                  'assets/artifact.gif',
                 ),
                 fit: BoxFit.cover),
           ),
@@ -26,16 +26,16 @@ class ProfilePage extends StatelessWidget {
             children: [
               const CircleAvatar(
                 radius: 55,
-                backgroundImage: AssetImage('assets/lens.jpeg'),
+                backgroundImage: AssetImage('assets/image.png'),
               ),
               const SizedBox(
                 height: 5,
               ),
               Text(
-                'Lens',
+                'Nathaniel Harvey Sarjono - Vey',
                 style: titleTextStyle.copyWith(
                     letterSpacing: 2,
-                    color: Colors.deepPurple,
+                    color: Color.fromARGB(248, 255, 255, 255),
                     fontSize: 20,
                     fontWeight: FontWeight.w800),
               ),
@@ -43,14 +43,18 @@ class ProfilePage extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                'Senior Flutter Developer',
+                '220211060176',
                 style: titleTextStyle.copyWith(
-                    color: Colors.black, fontWeight: FontWeight.bold),
+                    color: Color.fromARGB(255, 255, 255, 255), fontWeight: FontWeight.bold),
               ),
               const SizedBox(
                 height: 5,
               ),
-              const Text('nyenyenyenyenye sipaling flutter')
+              Text(
+                'Hidup berjalan seperti di laut',
+                style: titleTextStyle.copyWith(
+                  color: Color.fromARGB(255, 245, 245, 245), fontWeight: FontWeight.bold),
+              ),
             ],
           ),
         )
